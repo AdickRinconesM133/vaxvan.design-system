@@ -1,0 +1,25 @@
+# Source files
+src/
+tsconfig.json
+.gitignore
+
+# Development files
+node_modules/
+*.log
+.DS_Store
+.storybook/
+**/*.stories.tsx
+**/*.stories.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build artifacts (keep dist/ for npm)
+*.tsbuildinfo

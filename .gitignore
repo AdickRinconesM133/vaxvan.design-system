@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+dist/
+build/
+
+# Testing
+coverage/
+
+# Expo
+.expo/
+web-build/
+
+# Storybook
+storybook-static/
+*.log
+
+# Misc
+.DS_Store
+*.pem
