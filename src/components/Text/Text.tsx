@@ -54,7 +54,7 @@ export function Text({
         },
         { color: getColorValue(color, muted) },
         weight && { fontWeight: fontWeights[weight] },
-        size && { fontSize: size },
+        size ? { fontSize: size } : undefined,
         center && styles.center,
         style,
       ]}
